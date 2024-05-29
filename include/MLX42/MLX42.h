@@ -916,6 +916,9 @@ void mlx_set_instance_depth(mlx_instance_t* instance, int32_t zdepth);
  */
 mlx_image_t* mlx_put_string(mlx_t* mlx, const char* str, int32_t x, int32_t y);
 
+// Pulga version, put string to image instead of window
+void ft_mlx_put_string(mlx_t* mlx, mlx_image_t * img, const char* str, int32_t x, int32_t y, int color);
+
 /**
  * Retrieve the texture data for the built-in font.
  * 
